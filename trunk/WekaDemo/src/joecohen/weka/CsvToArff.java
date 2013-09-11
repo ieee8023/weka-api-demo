@@ -177,6 +177,8 @@ public class CsvToArff {
 		System.out.println("  Kappa Value is: " + eval.kappa());
 		System.out.println("  Error Rate is: " + eval.errorRate());
 		System.out.println("  F1 Score is: " + eval.weightedFMeasure());
+		System.out.println("  Precision is: " + eval.weightedPrecision());
+		System.out.println("  Recall is: " + eval.weightedRecall());
 		
 	}
 	
